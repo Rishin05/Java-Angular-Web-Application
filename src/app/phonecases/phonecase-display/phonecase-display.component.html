@@ -1,0 +1,31 @@
+<div class="container mt-3">
+  <h2>Available Phonecases</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Programmer Name</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let phonecase of phonecases">
+        <td>{{ phonecase.name }}</td>
+        <td>{{ phonecase.price }}</td>
+        <td>{{ phonecase.quantity }}</td>
+        <td>{{ phonecase.programmerName }}</td>
+        <td>
+          <a href="#" *ngIf="phonecase.id !== undefined" class="btn btn-danger btn-sm" (click)="deletePhonecase(phonecase.id)">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container mt-3 text-right">
+  <button routerLink="/viewPhonecases" class="btn btn-primary">Phonecases Home</button>
+</div>
+
+

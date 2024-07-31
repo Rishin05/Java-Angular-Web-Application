@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.btn-height {
+  height: 50px; 
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-custom:hover {
+  background-color: #5a6268; 
+}
+

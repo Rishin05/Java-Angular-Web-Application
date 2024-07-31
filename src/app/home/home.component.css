@@ -1,0 +1,32 @@
+
+.btn-custom {
+  color: #fff;
+  background-color: #007bff; 
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3; 
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.btn-height {
+  height: 100%;
+}

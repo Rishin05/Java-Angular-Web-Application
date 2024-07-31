@@ -1,0 +1,19 @@
+<div class="container mt-3">
+  <h2>Available Programmers</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let programmer of programmers">
+        <td>{{ programmer.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container mt-3 text-right">
+  <button routerLink="/viewProgrammers" class="btn btn-primary">Programmers Home</button>
+</div>
